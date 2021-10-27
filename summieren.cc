@@ -7,7 +7,7 @@ void readfile(std::string dataname){
     int b;
     int c;
     std::ifstream infile(dataname);
-    std::ofstream fout("ausgabe.txt");
+    std::ofstream fout("datensumme.txt");
     fout <<"Sum"<<std::endl;
     while(infile>>a>>b){
         c=a+b;
