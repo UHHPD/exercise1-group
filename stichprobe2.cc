@@ -11,7 +11,7 @@ std::vector<double> readfile_mean(std::string dataname_in){
     double i = 0;
     std::vector<double> mean_array={};
     std::ifstream infile(dataname_in);
-    std::ofstream fout("mittelwert.txt");
+    std::ofstream fout("mittelwerte.txt");
     while(infile>>a){
         mean+=a;
         if (i==8){
